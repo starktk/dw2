@@ -3,7 +3,7 @@ const filmfav = {
      StepUpAllin: {
       year: 2014,
       de: 'Eua',
-      genero = [ 
+      genero: [ 
         'musical',
       ]
 
@@ -12,7 +12,7 @@ const filmfav = {
       GOT: {
       seasons: 8,
       launchyear: 2011,
-      genero = [
+      genero: [
       
         'drama',
       ]
@@ -22,7 +22,7 @@ const filmfav = {
     TWD: {
       seasons: 11,
       launchyear: 2010,
-      genero = [
+      genero: [
         'drama',
         'drama',
       ]
