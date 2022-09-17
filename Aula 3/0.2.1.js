@@ -24,7 +24,7 @@ const filmfav = {
       launchyear: 2010,
       genero: [
         'drama',
-        'drama',
+        
       ]
 
     }
