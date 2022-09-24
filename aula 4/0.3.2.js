@@ -22,11 +22,14 @@ function filtrarconcluidas () {
 }
 
 function filtrarnaoconcluidas  () {
-  const Nconcluidas = tarefas.filter((concluida) => concluida === false).length;
+  const Nconcluidas = tarefas.filter(({concluida}) => concluida === false);
   return filtrarnaoconcluidas;
 }
 
 
 
+function filtrartrindaD () {
+  const trintadays = tarefas.filter(({dias}) => dias < 30 );
+}
 
-const trintadays = tarefas.filter()
+console.log(filtrarconcluidas);
