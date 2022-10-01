@@ -15,7 +15,7 @@ const medicos = [
     genero: 'nao-binario',
   },
 ]
-function Galadriel = {
+function Galadriel() {
   const array = [];
 
   medicos.forEach(({ genero, nome, sobrenome }) => {
@@ -31,4 +31,4 @@ function Galadriel = {
   return array;
 }
 
-console.log(Galadriel);
+console.log(Galadriel());
