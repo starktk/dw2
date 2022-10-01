@@ -18,18 +18,20 @@ const tarefas = [
 
 function filtrarconcluidas () {
   const  concluidas = tarefas.filter(({concluida}) => concluida === true);
-  return filtrarconcluidas;
+  return concluidas;
 }
+
 
 function filtrarnaoconcluidas  () {
   const Nconcluidas = tarefas.filter(({concluida}) => concluida === false);
-  return filtrarnaoconcluidas;
+  return Nconcluidas.length;
 }
 
 
 
-function filtrartrindaD () {
+function filtrartrintaD () {
   const trintadays = tarefas.filter(({dias}) => dias < 30 );
+  return trintadays;
 }
 
-console.log(filtrarconcluidas);
+console.log(filtrarnaoconcluidas());
